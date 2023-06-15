@@ -8,4 +8,4 @@ workflows:
     jobs:
       - maven/test:
           command: clean verify
-  
+          test_results_path: target/failsafe-reports
