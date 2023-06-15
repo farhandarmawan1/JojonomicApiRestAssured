@@ -10,7 +10,7 @@ import java.io.File;
 
 public class WheaterAPI {
 
-    public static  String TOKEN = "3af36c7bf7aa47e18bcef6e50a1f8310";
+    public static  String TOKEN = "00ad923afec447e688e8dfc9821b0b7a";
     public static  String GET_CURRENT_DATA = Constant.BASE_URL + "/current?lat={lat}&lon={lon}&key={token}";
     public static  String GET_FORECAST_DATA = Constant.BASE_URL + "/forecast/hourly?postal_code={postalCode}&key={tokenForecast}";
 
